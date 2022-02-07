@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--#include file="htm/baseurl.htm"-->
+    <!--#include file="htm/meta.htm"-->
+
+    <title>City University of Hong Kong</title>
+    <meta name="author" content="City University of Hong Kong"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="City University of Hong Kong, City University, CityU"/>
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=GBK"/>
+</head>
+
+<body class="cityu-template-2 cityu-template-2-0 cityu-base-layout cityu-base-style">
+
+<!--#include file="htm/header.htm"-->
+<!--#include file="htm/menu.htm"-->
+
+<!--#include file="htm/breadcrumb.htm"-->
+
+<!-- Main -->
+<main class="cityu-main">
+    <div class="cityu-main-inner container">
+        <div class="row">
+
+            <!-- Content -->
+            <div class="col-md-9">
+                <div class="cityu-content content-color-default">
+                    <h1>Postdoctoral Fellow</h1>
+                    <div class="row">
+                        <div class="col-md-12" id="students-div">
+                            <!-- list-->
+                            <div class="card mb-3 student-content">
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-md-3 d-flex align-items-center">
+                                        <img src="" class="card-img student-img" alt="Mr. SHI Shuo">
+                                    </div>
+                                    <div class="col-12 col-md-9  d-flex align-items-center">
+                                        <div class="card-body">
+                                            <h5 class="card-title student-name">Mr. SHI Shuo</h5>
+                                            <p class="card-text">
+
+                                            </p>
+                                            <div class="student-edu">
+
+                                            </div>
+                                            <br>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <a class="student-email-a" href="mailto:shuoshi4-c@my.cityu.edu.hk"><i
+                                                            class="far fa-envelope student-email"> shuoshi4-c@my.cityu.edu.hk</i></a>
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Sidebar -->
+            <div class="col-md-3">
+
+                <!--#include file="htm/submenu.htm"-->
+
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<!--#include file="htm/sitemap.htm"-->
+<!--#include file="htm/footer.htm"-->
+<!--#include file="htm/script.htm"-->
+
+</body>
+<script>
+    var students = [
+        {
+            "name": "Dr. GUO Chunxia",
+            "img_src": "img/people/郭春霞.webp",
+            "email": "chunxguo@cityu.edu.hk",
+            "edu":
+                [
+                    "2020-Present, Postdoctoral Fellow, City University of Hong Kong",
+                    "2017-2020, D.Sc., China Academy of Chinese Medical Sciences",
+                    "2013-2016, M.S., Shaanxi University of Chinese Medicine",
+                    "2013-2016, B.Eng., Tianjin University",
+                    "2004-2007, M.A., Lanzhou University",
+                    "2000-2004, B.A., Henan University",
+                ]
+        },
+        {
+            "name": "Dr. SI Yifan",
+            "img_src": "img/people/司一帆.webp",
+            "email": "yifansi@cityu.edu.hk",
+            "edu":
+                [
+                    "2020-Present, Postdoctoral Fellow, City University of Hong Kong",
+                    "2017-2020, Ph.D., Beihang University",
+                    "2014-2017, M.Eng., Hubei University",
+                    "2010-2014, B.Sc., Northwest Normal University",
+                ]
+        },
+    ]
+    function foreach(array) {
+        var template = $("#students-div").find(".student-content").clone()
+        for (var i = 0; i < array.length; i++) {
+            var item = array[i];
+            var content = template.clone()
+            content.find(".student-name").html(item.name)
+            content.find(".student-email").html(" "+ item.email)
+            content.find(".student-img").attr("src",item.img_src)
+            content.find(".student-img").attr("alt",item.name)
+            content.find(".student-email-a").attr("href","mailto:"+ item.email)
+            for (var j = 0; j < item.edu.length; j++) {
+                content.find(".student-edu").append("<p class=\"card-text\">\n" + item.edu[j] + "</p>")
+            }
+            $("#students-div").append(content)
+        }
+        $("#students-div").find(".student-content")[0].remove()
+    }
+    //调用
+    foreach(students);
+</script>
+</html>

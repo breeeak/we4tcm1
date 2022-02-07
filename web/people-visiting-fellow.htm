@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--#include file="htm/baseurl.htm"-->
+    <!--#include file="htm/meta.htm"-->
+
+    <title>City University of Hong Kong</title>
+    <meta name="author" content="City University of Hong Kong"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="City University of Hong Kong, City University, CityU"/>
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=GBK"/>
+</head>
+
+<body class="cityu-template-2 cityu-template-2-0 cityu-base-layout cityu-base-style">
+
+<!--#include file="htm/header.htm"-->
+<!--#include file="htm/menu.htm"-->
+
+<!--#include file="htm/breadcrumb.htm"-->
+
+<!-- Main -->
+<main class="cityu-main">
+    <div class="cityu-main-inner container">
+        <div class="row">
+
+            <!-- Content -->
+            <div class="col-md-9">
+                <div class="cityu-content content-color-default">
+                    <h1>Visiting Fellow</h1>
+                    <div class="row">
+                        <div class="col-md-12" id="students-div">
+                            <!-- list-->
+                            <div class="mb-3 student-content">
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-md-3 d-flex align-items-center">
+                                        <img src="" class="card-img student-img" alt="Mr. SHI Shuo">
+                                    </div>
+                                    <div class="col-12 col-md-9 d-flex align-items-center">
+                                        <div class="card-body">
+                                            <h5 class="card-title student-name">Mr. SHI Shuo</h5>
+                                            <p class="card-text">
+
+                                            </p>
+                                            <div class="student-edu">
+
+                                            </div>
+                                            <br>
+                                            <p class="card-text">
+                                                <small class="text-muted">
+                                                    <a class="student-email-a" href="mailto:shuoshi4-c@my.cityu.edu.hk"><i
+                                                            class="far fa-envelope student-email"> shuoshi4-c@my.cityu.edu.hk</i></a>
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Sidebar -->
+            <div class="col-md-3">
+
+                <!--#include file="htm/submenu.htm"-->
+
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<!--#include file="htm/sitemap.htm"-->
+<!--#include file="htm/footer.htm"-->
+<!--#include file="htm/script.htm"-->
+
+</body>
+<script>
+    var students = [
+        {
+            "name": "Dr. WU Ting",
+            "img_src": "img/people/吴婷.webp",
+            "email": "wuting@scut.edu.cn",
+            "edu":
+                [
+                    "2020-Present, Visiting Fellow, City University of Hong Kong",
+                    "2018-Present, Postdoctoral Fellow, South China University of Technology",
+                    "2015-2018, Ph.D., South China University of Technology",
+                    "2012-2015, M.Sc., Jilin University",
+                    "2008-2012, B.Sc., Hunan Institute of Science and Technology",
+                ]
+        },
+
+    ]
+    function foreach(array) {
+        var template = $("#students-div").find(".student-content").clone()
+        for (var i = 0; i < array.length; i++) {
+            var item = array[i];
+            var content = template.clone()
+            content.find(".student-name").html(item.name)
+            content.find(".student-email").html(" "+ item.email)
+            content.find(".student-img").attr("src",item.img_src)
+            content.find(".student-img").attr("alt",item.name)
+            content.find(".student-email-a").attr("href","mailto:"+ item.email)
+            for (var j = 0; j < item.edu.length; j++) {
+                content.find(".student-edu").append("<p class=\"card-text\">\n" + item.edu[j] + "</p>")
+            }
+            $("#students-div").append(content)
+        }
+        $("#students-div").find(".student-content")[0].remove()
+    }
+    //调用
+    foreach(students);
+</script>
+</html>
