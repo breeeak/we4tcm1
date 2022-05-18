@@ -6,10 +6,9 @@
     <!--#include file="htm/baseurl.htm"-->
     <!--#include file="htm/meta.htm"-->
 
-    <title>City University of Hong Kong</title>
-    <meta name="author" content="City University of Hong Kong"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content="City University of Hong Kong, City University, CityU"/>
+    <title>Members | Laboratory of Wearable Materials for Healthcare</title>
+    <meta name="description" content="Prof Hu's Students"/>
+    <meta name="keywords" content="Prof Hu's Students"/>
     <meta name="robots" content="index, follow"/>
     <meta http-equiv="Content-Type" content="text/html;charset=GBK"/>
 </head>
@@ -64,37 +63,65 @@
                     </div>
 
                     <h1>Alumni</h1>
+
                     <div class="table-responsive-lg">
-                        <table class="table table-bordered table-striped">
+                        <table class="table table-bordered table-striped" id="alumni_list">
                             <tr>
                                 <th>Name</th>
                                 <th>Years</th>
-                                <th>Email</th>
                             </tr>
                             <tr>
                                 <td>Dr. Mohammad Irfan Iqbal</td>
                                 <td>2018-2021</td>
-                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>
+<!--                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>-->
                             </tr>
                             <tr>
                                 <td>Mr. YU Weijie, Ken</td>
                                 <td>2020-2021</td>
-                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>
                             </tr>
                             <tr>
                                 <td>Miss YU Yingfeng</td>
                                 <td>2020-2021</td>
-                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>
                             </tr>
                             <tr>
                                 <td>Miss CHEN Yuhan</td>
                                 <td>2020-2021</td>
-                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>
                             </tr>
                             <tr>
                                 <td>Dr. JIANG Yuanzhang</td>
                                 <td>2017-2021</td>
-                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Harun Venkatesen</td>
+                                <td>2016-2019</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. HAN Yanting</td>
+                                <td>2016-2019</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Anwar Jahid</td>
+                                <td>2016-2019</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. ZHU Shanshan</td>
+                                <td>2015-2018</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. ZHANG Yuanchi</td>
+                                <td>2015-2018</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. CHEN Jianming</td>
+                                <td>2014-2017</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. CHEN Cheng</td>
+                                <td>2013-2016</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Harish Kumar Narayana</td>
+                                <td>2014-2018</td>
                             </tr>
                         </table>
                     </div>
@@ -347,6 +374,38 @@
                 ]
         },
     ]
+    var almni = ["Dr. TAN Lin","HAN Jianping","Dr. WU You","Dr. KIM Kenri","Dr. LUO Hongsheng","Dr. ZHENG Dejun","Dr. ZHANG Cuili","Dr. YEUNG Lap Yan","Dr. ZHUO Haitao","Onkaraiah Pavithra","Dr. MENG Qinghao","Dr. LIU Xiaoxia","Dr. JI Fenglong","Dr. CHEN Shaojun","Dr. WANG Xueqin","Dr. XIN Binjie","Dr. YU Xiaobo","Dr. ZHU Yong","Dr. LIU Baohua","LI Yuen Kei","Dr. Subrata Mondal","Dr. LIU Yi","Dr. MA Liang","Dr. DING Xuemei","Dr. JIANG Xiuying","Dr. ZENG Yueming","Dr. Winnie LO","Dr. LU Yongliang","Dr. S. P. CHUNG","Dr. JIANG Yaming","HU Kejin"]
+    var years = ["2016",
+        "2015",
+        "2015",
+        "2014",
+        "2014",
+        "2012",
+        "2012",
+        "2011",
+        "2011",
+        "2011",
+        "2011",
+        "2010",
+        "2010",
+        "2010",
+        "2010",
+        "2009",
+        "2008",
+        "2008",
+        "2007",
+        "2007",
+        "2006",
+        "2006",
+        "2006",
+        "2004",
+        "2003",
+        "2003",
+        "2001",
+        "2000",
+        "1999",
+        "1999",
+        "1998",]
     function foreach(array) {
         var template = $("#students-div").find(".student-content").clone()
         for (var i = 0; i < array.length; i++) {
@@ -362,7 +421,18 @@
             }
             $("#students-div").append(content)
         }
+
         $("#students-div").find(".student-content")[0].remove()
+        var alumni_list = $("#alumni_list")
+        console.log(alumni_list)
+        for (var i = 0; i < almni.length; i++) {
+            var name = almni[i];
+            var year = years[i];
+            alumni_list.append("<tr>\n" +
+                "                                <td>"+name+"</td>\n" +
+                "                                <td>"+year+"</td>\n" +
+                "                            </tr>")
+        }
     }
     //调用
     foreach(students);

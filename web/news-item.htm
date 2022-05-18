@@ -6,10 +6,7 @@
     <!--#include file="htm/baseurl.htm"-->
     <!--#include file="htm/meta.htm"-->
 
-    <title>City University of Hong Kong</title>
-    <meta name="author" content="City University of Hong Kong"/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content="City University of Hong Kong, City University, CityU"/>
+    <title>News | Laboratory of Wearable Materials for Healthcare</title>
     <meta name="robots" content="index, follow"/>
     <meta http-equiv="Content-Type" content="text/html;charset=GBK"/>
 </head>
@@ -24,7 +21,6 @@
 <!-- Main -->
 <main class="cityu-main">
     <div class="cityu-main-inner container ">
-
         <div class="cityu-content content-color-default">
             <h1>News</h1>
             <div class="row">
@@ -159,6 +155,12 @@
 
             }else if(item["type"]=="link"){
                 content_div.append("<a href='"+item["src"]+"'>&#9658 "+item["content"]+"</a><br><br>")
+            }else if(item["type"]=="video"){
+                content_div.append("<div class=\"row justify-content-center\">\n" +
+                    "            <video controls autoplay>\n" +
+                    "                <source src=\""+item["content"]+"\" type=\"video/webm\">\n" +
+                    "            </video>\n" +
+                    "        </div>")
             }
         }
     }

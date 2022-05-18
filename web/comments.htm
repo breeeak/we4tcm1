@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--#include file="htm/baseurl.htm"-->
+    <!--#include file="htm/meta.htm"-->
+
+    <title>News | Laboratory of Wearable Materials for Healthcare</title>
+    <meta name="description" content="Prof Hu's News"/>
+    <meta name="keywords" content="Prof Hu's News"/>
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=GBK"/>
+</head>
+
+<body class="cityu-template-2 cityu-template-2-0 cityu-base-layout cityu-base-style">
+
+<!--#include file="htm/header.htm"-->
+<!--#include file="htm/menu.htm"-->
+
+<!--#include file="htm/breadcrumb.htm"-->
+
+<!-- Main -->
+<main class="cityu-main">
+    <div class="cityu-main-inner container">
+        <div class="row">
+
+            <!-- Content -->
+            <div class="col-md-12">
+                <div class="cityu-content content-color-default">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Comments</h1>
+                        </div>
+                        <ul class="list-unstyled" id="news-div" >
+
+                            <li class="row my-4 no-gutters mx-3">
+                                <img src="img/articles/news/shapeshifting.gif" alt="..." class="col-12 col-md-4 d-flex mr-md-3 rounded border img-left">
+                                <div class="media-body">
+                                    <h2 class="h-left">Shapeshifting Jackets: Is It Real? </h2>
+                                    <p style="color: black" class="p-left text-justify">It is simply a gimmick, a promotional tool. It has no practical usage. First, the area to be covered of a garment is very small, like an envelope size. it can only be attached to some areas. 2nd, I do not think it can really hold static air because the the spacing is too big, which is a good air tunnel for flow, rather than an insulator needing static air. The density of a structure has to be high enough (>50kg/m3) for holding static air. Third, we can not see the structural change when the man walking from outside to indoor. Finally, this can not be scaled up because handloom is too slow. I do not believe this is an important element to make the athletes comfortable with Ralph Lauren's garments. However, thermally adaptive textiles can be made with more practical technologies
+                                    </p>
+                                    <p class="d-flex justify-content-end">
+                                        <a href="people-principal-investigator.htm">
+                                            Comments by Prof. Hu
+                                        </a>
+                                    </p>
+                                    See the following news:
+                                    <a href="https://www.innovationintextiles.com/shapeshifting-jackets-the-magic-is-in-the-yarn/" class="col-12 col-md-7 text-justify my-2 a-left">
+                                        Shapeshifting Jackets: The magic is in the yarn
+                                    </a>
+                                </div>
+
+                            </li>
+                            <div class="cityu-divider-2"></div>
+<!--                            <li class="row  my-4 no-gutters mx-3">-->
+<!--                                <a class="col-12 col-md-7 d-flex mr-md-3 text-justify a-right" href="https://mp.weixin.qq.com/s?__biz=MzA5NjUyNjc5Ng==&mid=2651440979&idx=2&sn=a268d9c7ae0a58ca86d087e0ad20b845&chksm=8b53aff0bc2426e66722f6a6db267576eebed28f70127a9e45c02548863c00628425b131ab44&scene=21#wechat_redirect">-->
+<!--                                    <div class="media-body mx-2">-->
+<!--                                        <h2 class="h-right">An Innovative Solvent-Responsive Coiling–Expanding Stent</h2>-->
+<!--                                        <p class="p-right" style="color: black">Coronary artery disease is the “first killer” in the world, while the classical treatment for this disease is to implant stent. An ideal vascular stent should be nontoxic with self-expanding characteristics, quick expanding speed, and appropriate mechanical supporting property. However, no existing vascular stent covers all properties...-->
+<!--                                        </p>-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                                <img src="img/articles/InnovativeSolvent.webp" class="col-12 col-md-4 my-2 rounded border img-right" alt="...">-->
+<!--                            </li>-->
+<!--                            <div class="cityu-divider-1"></div>-->
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<!--#include file="htm/sitemap.htm"-->
+<!--#include file="htm/footer.htm"-->
+<!--#include file="htm/script.htm"-->
+
+</body>
+
+<script>
+    var news = [
+        {
+            "type":"left",
+            "a":"https://mp.weixin.qq.com/s/78BRmpe4sxZC__rl8MCsYQ",
+            "h":"Shapeshifting Jackets: Is it real? ",
+            "p":"",
+            "img":"",
+        },
+    ]
+
+    function foreach(array) {
+        var template = $("#news-div")
+        template.empty()
+        for (var i = 0; i < array.length; i++) {
+            var item = array[i];
+            if(item.type=="left"){
+                var content = "<li class=\"row my-4 no-gutters mx-3\">\n" +
+                    "                                <img src='"+item.img+"' alt=\"...\" class=\"col-12 col-md-4 d-flex mr-md-3 rounded border img-left\">\n" +
+                    "                                <a href='"+item.a+"' class=\"col-12 col-md-7 text-justify my-2 a-left\">\n" +
+                    "                                    <div class=\"media-body\">\n" +
+                    "                                        <h2 class=\"h-left\">"+item.h+"</h2>\n" +
+                    "                                        <p style=\"color: black\" class=\"p-left\">"+item.p+"</p>\n" +
+                    "                                    </div>\n" +
+                    "                                </a>\n" +
+                    "                            </li>"
+                template.append(content)
+                template.append("<div class=\"cityu-divider-2\"></div>")
+            }else{
+                var content = "<li class=\"row  my-4 no-gutters mx-3\">\n" +
+                    "                                <a class=\"col-12 col-md-7 d-flex mr-md-3 text-justify a-right\" href='"+item.a+"'>\n" +
+                    "                                    <div class=\"media-body mx-2\">\n" +
+                    "                                        <h2 class=\"h-right\">"+item.h+"</h2>\n" +
+                    "                                        <p class=\"p-right\" style=\"color: black\">"+item.p+"" +
+                    "                                        </p>\n" +
+                    "                                    </div>\n" +
+                    "                                </a>\n" +
+                    "                                <img src='"+item.img+"' class=\"col-12 col-md-4 my-2 rounded border img-right\" alt=\"...\">\n" +
+                    "                            </li>"
+                template.append(content)
+                template.append("<div class=\"cityu-divider-1\"></div>")
+            }
+        }
+    }
+    // foreach(news)
+</script>
+
+</html>
