@@ -10,7 +10,7 @@
     <meta name="description" content="Prof Hu's Publications"/>
     <meta name="keywords" content="Prof Hu's Publications"/>
     <meta name="robots" content="index, follow"/>
-
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 </head>
 
 <body class="cityu-template-2 cityu-template-2-0 cityu-base-layout cityu-base-style">
@@ -79,7 +79,7 @@
 
 <script>
     function init() {
-        // ³õÊ¼»¯ĞÂÎÅÄÚÈİ
+        // åˆå§‹åŒ–æ–°é—»å†…å®¹
         var data = publications
         console.log(data)
         var template_origin = $("#pub_div").clone();
@@ -94,10 +94,10 @@
                 var src = srcs[j]
                 var title = titles[j]
                 console.log(src)
-                if (title==""){// Ìí¼ÓÄê·İ
+                if (title==""){// æ·»åŠ å¹´ä»½
                     template.find(".year").html(src)
                     console.log(1)
-                }else if (src ==""){// Ìí¼ÓÄê·İ
+                }else if (src ==""){// æ·»åŠ å¹´ä»½
                     template.find(".paper").append("<h6 class=\"list-group-item\"><a class='h6' style='color: black' href='#'>"+title+"</a>")
                 }else{
                     template.find(".paper").append("<li class=\"list-group-item\"><a class='h6' download href='pdf/"+src+"'>"+title+"</a></li>")
@@ -109,7 +109,7 @@
         }
     }
 
-    //µ÷ÓÃ
+    //è°ƒç”¨
     init();
 </script>
 </html>
