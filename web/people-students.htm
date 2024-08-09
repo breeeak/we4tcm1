@@ -41,7 +41,7 @@
                                         <div class="card-body">
                                             <h5 class="card-title student-name">Mr. SHI Shuo</h5>
                                             <p class="card-text">
-                                                <small class="text-muted">
+                                                <small class="text-muted student-role">
                                                     Ph.D. Student
                                                 </small>
                                             </p>
@@ -69,6 +69,11 @@
                             <tr>
                                 <th>Name</th>
                                 <th>Years</th>
+                            </tr>
+                            <tr>
+                                <td>Dr. SHI Shuo</td>
+                                <td>2020-2023</td>
+                                <!--                                <td><a href="mailto:"><i class="far fa-envelope"></i></a></td>-->
                             </tr>
                             <tr>
                                 <td>Dr. Mohammad Irfan Iqbal</td>
@@ -152,19 +157,20 @@
 </body>
 <script>
     var students = [
+        // {
+        //     "name": "Mr. SHI Shuo",
+        //     "img_src": "img/people/shishuo2.webp",
+        //     "email": "shuoshi4-c@my.cityu.edu.hk",
+        //     "edu":
+        //         [
+        //             "2020-Present, Ph.D. Candidate, City University of Hong Kong",
+        //             "2019-2020, M.Sc., The Hong Kong Polytechnic University",
+        //             "2013-2016, M.Eng., University of Science and Technology of China",
+        //             "2009-2013, B.Eng., Hefei University of Technology"
+        //         ]
+        // },
         {
-            "name": "Mr. SHI Shuo",
-            "img_src": "img/people/shishuo2.webp",
-            "email": "shuoshi4-c@my.cityu.edu.hk",
-            "edu":
-                [
-                    "2020-Present, Ph.D. Candidate, City University of Hong Kong",
-                    "2019-2020, M.Sc., The Hong Kong Polytechnic University",
-                    "2013-2016, M.Eng., University of Science and Technology of China",
-                    "2009-2013, B.Eng., Hefei University of Technology"
-                ]
-        },
-        {
+            "role": "Ph.D. Student",
             "name": "Mr. ZHI Chuanwei",
             "img_src": "img/people/zhichuanwei.webp",
             "email": "cwzhi2-c@my.cityu.edu.hk",
@@ -176,6 +182,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. ZHANG Ke",
             "img_src": "img/people/zhangke.webp",
             "email": "kzhang73-c@my.cityu.edu.hk",
@@ -187,6 +194,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Miss YANG Jieqiong",
             "img_src": "img/people/yangjieqiong.webp",
             "email": "jieqiyang4-c@my.cityu.edu.hk",
@@ -198,6 +206,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. ZHANG Qi",
             "img_src": "img/people/zhangqi.webp",
             "email": "qzhang448-c@my.cityu.edu.hk",
@@ -209,6 +218,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. WANG Zhuang",
             "img_src": "img/people/wangzhuang.webp",
             "email": "zhuanwang3-c@my.cityu.edu.hk",
@@ -220,6 +230,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. WU Hanbai",
             "img_src": "img/people/wuhanbai.webp",
             "email": "hanbaiwu3-c@my.cityu.edu.hk",
@@ -231,6 +242,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Miss HAN Rong",
             "img_src": "img/people/hanrong.webp",
             "email": "ronghan5-c@my.cityu.edu.hk",
@@ -242,6 +254,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. SU Yupei",
             "img_src": "img/people/suyupei.webp",
             "email": "yupeisu2-c@my.cityu.edu.hk",
@@ -253,6 +266,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. MENG Shuo",
             "img_src": "img/people/mengshuo.webp",
             "email": "shuomeng2-c@my.city.edu.hk",
@@ -264,6 +278,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Miss XU Xiaoyun",
             "img_src": "img/people/xuxiaoyun.webp",
             "email": "xiaoyunxu5-c@my.cityu.edu.hk",
@@ -275,6 +290,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Miss LI Min",
             "img_src": "img/people/limin.webp",
             "email": "minli69-c@my.cityu.edu.hk",
@@ -286,6 +302,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. TAN Renjie",
             "img_src": "img/people/tanrenjie.webp",
             "email": "rjtan2-c@my.cityu.edu.hk",
@@ -298,6 +315,7 @@
         },
 
         {
+            "role": "Ph.D. Student",
             "name": "Mr. ZHANG Shuai",
             "img_src": "img/people/zhangshuai.webp",
             "email": "zhangshuai.tz@my.cityu.edu.hk",
@@ -309,6 +327,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. LIANG Xinshuo",
             "img_src": "img/people/liangxinshuo.webp",
             "email": "xinsliang2-c@my.cityu.edu.hk",
@@ -319,18 +338,19 @@
                     "2015-2019, B.Eng., Sichuan University",
                 ]
         },
+        // {
+        //     "name": "Miss JIANG Fan",
+        //     "img_src": "img/people/jiangfan.webp",
+        //     "email": "fajiang6-c@my.cityu.edu.hk",
+        //     "edu":
+        //         [
+        //             "2021-Present, Ph.D. Candidate, City University of Hong Kong",
+        //             "2019-2021, M.Eng., Shinshu University",
+        //             "2014-2018, B.Eng., Anhui Polytechnic University",
+        //         ]
+        // },
         {
-            "name": "Miss JIANG Fan",
-            "img_src": "img/people/jiangfan.webp",
-            "email": "fajiang6-c@my.cityu.edu.hk",
-            "edu":
-                [
-                    "2021-Present, Ph.D. Candidate, City University of Hong Kong",
-                    "2019-2021, M.Eng., Shinshu University",
-                    "2014-2018, B.Eng., Anhui Polytechnic University",
-                ]
-        },
-        {
+            "role": "Ph.D. Student",
             "name": "Miss LEI Leqi",
             "img_src": "img/people/leileqi.webp",
             "email": "leqilei2-c@my.cityu.edu.hk",
@@ -342,6 +362,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. WANG Cong",
             "img_src": "img/people/wangcong.webp",
             "email": "cowang6-c@my.cityu.edu.hk",
@@ -353,6 +374,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Mr. ZHOU Xiong",
             "img_src": "img/people/zhouxiong.webp",
             "email": "xiongzhou2-c@my.cityu.edu.hk",
@@ -363,6 +385,7 @@
                 ]
         },
         {
+            "role": "Ph.D. Student",
             "name": "Miss IQBAL Saira",
             "img_src": "img/people/Saira.webp",
             "email": "sairiqbal2-c@my.cityu.edu.hk",
@@ -374,20 +397,57 @@
                 ]
         },
         {
-
+            "role": "Ph.D. Student",
             "name": "Miss CHEN Yuhan",
             "img_src": "img/people/chenyuhan2.jpg",
             "email": "yuhachen9-c@my.cityu.edu.hk",
             "edu":
                 [
-                    "2022-Present,Ph.D.Candidate,City University of Hong Kong",
+                    "2022-Present, Ph.D.Candidate,City University of Hong Kong",
                     "2020-2021, M.Sc.,City University of Hong Kong" ,
                     "2016-2020, B.Sc.,Hunan University of Science and Technology",
                 ]
         },
+        {
+            "role": "Ph.D. Student",
+            "name": "Mr. FANG Wenjie",
+            "img_src": "img/people/fangwenjie.jpg",
+            "email": "wjfang5-c@my.cityu.edu.hk",
+            "edu":
+                [
+                    "2023-Present, Ph.D. Candidate, City University of Hong Kong",
+                    "2019-2022, M.Eng., Jiangnan University" ,
+                    "2015-2019, B.Sc., China Pharmaceutical University",
+                ]
+        },
+        {
+            "role": "Ph.D. Student",
+            "name": "Mr. XU Xingyuan",
+            "img_src": "img/people/xuxingyuan.jpg",
+            "email": "xingyuaxu3-c@my.cityu.edu.hk",
+            "edu":
+                [
+                    "2024-Present, Ph.D. Candidate, City University of Hong Kong",
+                    "2020-2023, M.Sc., Beihang University" ,
+                    "2016-2020, B.Sc., Beihang University",
+                ]
+        },
+        {
+            "role": "MPhil. Student",
+            "name": "Mr. HUANG Kaisong",
+            "img_src": "img/people/huangkaisong.jpg",
+            "email": "kaishuang3-c@my.cityu.edu.hk",
+            "edu":
+                [
+                    "2023-present, MPhil., City University of Hong Kong",
+                    "2022-2023, M.Sc., City University of Hong Kong" ,
+                    "2018-2022, B.Eng., Jinan University",
+                ]
+        },
     ]
     var almni = ["Dr. TAN Lin","HAN Jianping","Dr. WU You","Dr. KIM Kenri","Dr. LUO Hongsheng","Dr. ZHENG Dejun","Dr. ZHANG Cuili","Dr. YEUNG Lap Yan","Dr. ZHUO Haitao","Onkaraiah Pavithra","Dr. MENG Qinghao","Dr. LIU Xiaoxia","Dr. JI Fenglong","Dr. CHEN Shaojun","Dr. WANG Xueqin","Dr. XIN Binjie","Dr. YU Xiaobo","Dr. ZHU Yong","Dr. LIU Baohua","LI Yuen Kei","Dr. Subrata Mondal","Dr. LIU Yi","Dr. MA Liang","Dr. DING Xuemei","Dr. JIANG Xiuying","Dr. ZENG Yueming","Dr. Winnie LO","Dr. LU Yongliang","Dr. S. P. CHUNG","Dr. JIANG Yaming","HU Kejin"]
-    var years = ["2016",
+    var years = [
+        "2016",
         "2015",
         "2015",
         "2014",
@@ -423,6 +483,7 @@
         for (var i = 0; i < array.length; i++) {
             var item = array[i];
             var content = template.clone()
+            content.find(".student-role").html(item.role)
             content.find(".student-name").html(item.name)
             content.find(".student-email").html(" "+ item.email)
             content.find(".student-img").attr("src",item.img_src)
