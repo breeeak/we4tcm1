@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--#include file="htm/baseurl.htm"-->
+    <!--#include file="htm/meta.htm"-->
+
+    <title>Publications | Laboratory of Wearable Materials for Healthcare</title>
+    <meta name="description" content="Prof Hu's Patents"/>
+    <meta name="keywords" content="Prof Hu's Patents"/>
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+
+<body class="cityu-template-2 cityu-template-2-0 cityu-base-layout cityu-base-style">
+
+<!--#include file="htm/header.htm"-->
+<!--#include file="htm/menu.htm"-->
+
+<!--#include file="htm/breadcrumb.htm"-->
+
+<!-- Main -->
+<main class="cityu-main">
+    <div class="cityu-main-inner container">
+        <div class="row">
+
+            <!-- Content -->
+            <div class="col-md-9">
+                <div class="cityu-content content-color-default">
+                    <h1>Patents</h1>
+                    <div class="row">
+                        <div class="col-md-12" >
+                            <div class="accordion mt-3" id="accordionExample" id="contents">
+                                <div class="card" id="pub_div">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne" class="year">
+
+                                        </h2>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                         data-parent="#accordionExample">
+                                            <p class="lead text-justify font-weight-bold">
+                                                <ui class="list-group list-group-flush paper" >
+
+                                                </ui>
+                                            </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <!-- list-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Sidebar -->
+            <div class="col-md-3">
+
+                <!--#include file="htm/submenu.htm"-->
+
+            </div>
+
+        </div>
+    </div>
+</main>
+
+<!--#include file="htm/sitemap.htm"-->
+<!--#include file="htm/footer.htm"-->
+<!--#include file="htm/script.htm"-->
+
+</body>
+<script type="text/javascript" src="js/patents.js" charset="GB2312"></script>
+
+<script>
+    function init() {
+        // 初始化新闻内容
+        var data = publications
+        console.log(data)
+        var template_origin = $("#pub_div").clone();
+        var content_div = $("#pub_div");
+        content_div.empty();
+        for (var i = 0; i < data["srcs"].length; i++) {
+            var template = template_origin.clone()
+
+            var srcs = data["srcs"][i]
+            var titles = data["title"][i]
+            for (var j = 0; j < srcs.length; j++) {
+                var src = srcs[j]
+                var title = titles[j]
+                console.log(src)
+                if (title==""){// 添加年份
+                    template.find(".year").html(src)
+                    console.log(1)
+                }else if (src ==""){// 添加年份
+                    template.find(".paper").append("<li class=\"list-group-item\"><a class='h6' style='color: black' href='#'>"+title+"</a></li>")
+                }else{
+                    template.find(".paper").append("<li class=\"list-group-item\"><a class='h6' download href='pdf/"+src+"'>"+title+"</a></li>")
+                }
+            }
+
+            content_div.append(template)
+            console.log(content_div)
+        }
+    }
+
+    //调用
+    init();
+</script>
+</html>

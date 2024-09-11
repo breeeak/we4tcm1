@@ -1,51 +1,51 @@
 
 
 var news_artificial_silk={
-    "title":"¾ß¶¨Ïò¼¯Ë®¹¦ÄÜµÄĞÂĞÍÈËÔìË¿ ¼¯Ë®Ğ§ÂÊÌáÉı100±¶",
-    "short_title":"¾ß¶¨Ïò¼¯Ë®¹¦ÄÜµÄĞÂĞÍÈËÔìË¿",
+    "title":"å…·å®šå‘é›†æ°´åŠŸèƒ½çš„æ–°å‹äººé€ ä¸ é›†æ°´æ•ˆç‡æå‡100å€",
+    "short_title":"å…·å®šå‘é›†æ°´åŠŸèƒ½çš„æ–°å‹äººé€ ä¸",
     "content":[
-        {"type":"p","content":"ÏÖÊµÀïÃ»ÓĞÖ©ÖëÏÀ£¬ÏëÓµÓĞÈçÌìÈ»Ö©Öë²¶Ë¿°ãÈÍĞÔ¸ßÓÖÇ×Ë®µÄÎïÁÏ£¬»¹µÃ¿¿¿ÆÑ§¼ÒµÄÇÉÊÖ¡£ÓÉÏã¸Û³ÇÊĞ´óÑ§£¨Ïã¸Û³Ç´ó£©¿ÆÑĞÈËÔ±Áìµ¼µÄÑĞ¾¿ÍÅ¶Ó£¬ÔçÇ°ÑĞ·¢³öÒ»¿îÄ£ÄâÌìÈ»Ö©Öë²¶Ë¿½á¹¹ÌØÕ÷µÄĞÂ²ÄÁÏ¡£Õâ¿îÈ«Ë¿µ°°×»ùµÄÈËÔìË¿£¬Ö±¾¶±ÈÈËÀàµÄÍ··¢Ë¿»¹ÒªÏ¸ºÜ¶à£¬ÖÊÁ¿¸üÇá£¬Í¬Ê±¾ßÓÅÒìµÄË®·ÖÊÕ¼¯ĞÔÄÜ£¬ÓĞÍûÓ¦ÓÃÓÚ»§ÍâÊÕ¼¯Ë®·İ£¬ÉõÖÁÉúÎïÒ½Ñ§²ÄÁÏ¡£"},
-        {"type":"p","content":"¸ÃÏîÑĞ¾¿ÓÉÏã¸Û³Ç´óÉúÎïÒ½Ñ§¹¤³ÌÑ§Ïµ½ÌÊÚ¼æ¿É´©´÷Ò½ÁÆ±£½¡²ÄÁÏÊµÑéÊÒÖ÷ÈÎ<b class='font-weight-bold'>ºú½ğÁ«½ÌÊÚ</b>Áìµ¼¡£ÑĞ¾¿½á¹ûÒÑ¾­ÔÚÑ§ÊõÆÚ¿¯¡¶ÏÈ½ø¹¦ÄÜ²ÄÁÏ¡·£¨<b class='font-weight-bold'>Advanced Functional\n" +
-                "                        Materials</b>£©ÉÏ·¢±í£¬ÌâÎª¡´A Spider©\Capture©\Silk©\Like Fiber with Extremely High©\Volume Directional Water\n" +
-                "                        Collection¡µ¡£"},
-        {"type":"subtitle","content":"ÓÃ»ùÒòÖØ×é·½Ê½ÖÆ±¸ÈËÔìµ°°×"},
-        {"type":"p","content":"ÌìÈ»µÄÖ©Öë²¶Ë¿¾ßÓĞ¶ÀÌØµÄ½áµã½á¹¹£¨node structure£©£¬Ë¿ÉÏ»áÖÜÆÚĞÔµØ³öÏÖ·Ä´¸×´µÄ½á½Ú£¨periodic spindle knots£©£¬\n" +
-                "                        ¼ÓÉÏ²¶Ë¿±¾Éí¾ßÓĞÇ×Ë®µÈÎïÀí»¯Ñ§ĞÔÖÊ£¬Òò´ËÄÜÓĞĞ§µØ¶¨ÏòÊÕ¼¯´óÆøÖĞµÄË®·Ö£¬Ê¹ÔÚÖ©ÖëÍøÉÏÄı½á³ÉµÄË®Öé£¬ÏòÍøµÄÖĞĞÄµã»ã¾Û¡£\n" +
-                "                        Í¬Ê±£¬ÌìÈ»Ö©Öë²¶Ë¿ÈÍĞÔºÜ¸ß£¬¶øÇÒÔÚ±»À­³¤ºóÒ»µ©ÓöÉÏÊªÆø¾Í»áÊÕËõ£¬»Ö¸´µ½³õÊ¼µÄ³¤¶È£¬ËùÒÔÒò²ø×¡ÁÔÎï¶ø±äÁËĞÎµÄÖ©ÖëÍø£¬ÓöË®±ã¿ÉÒÔ×ÔĞĞ»Ö¸´Ô­×´¡£\n" +
-                "                        ¡°ÕâĞ©ÌØĞÔÒıÆğÁË¿ÆÑ§½çµÄĞËÈ¤£¬µ«ÓÉÓÚ´ÓÖ©ÖëÉíÉÏÊÕ¼¯²¶Ë¿·ÑÊ±Ê§ÊÂ£¬ËùÒÔ¿ÆÑ§¼ÒÓÃ²»Í¬µÄ·½·¨ÖÆ×÷³öÓĞÏàËÆÌØĞÔµÄÈËÔìË¿ºÍĞÂĞÍ²ÄÁÏ£¬Ó¦ÓÃÓÚ·ìºÏÉË¿ÚÓÃµÄ·ìÏßµÈ·½Ãæ¡£¡±ºú½ÌÊÚ½éÉÜËµ¡£"},
+        {"type":"p","content":"ç°å®é‡Œæ²¡æœ‰èœ˜è››ä¾ ï¼Œæƒ³æ‹¥æœ‰å¦‚å¤©ç„¶èœ˜è››æ•ä¸èˆ¬éŸ§æ€§é«˜åˆäº²æ°´çš„ç‰©æ–™ï¼Œè¿˜å¾—é ç§‘å­¦å®¶çš„å·§æ‰‹ã€‚ç”±é¦™æ¸¯åŸå¸‚å¤§å­¦ï¼ˆé¦™æ¸¯åŸå¤§ï¼‰ç§‘ç ”äººå‘˜é¢†å¯¼çš„ç ”ç©¶å›¢é˜Ÿï¼Œæ—©å‰ç ”å‘å‡ºä¸€æ¬¾æ¨¡æ‹Ÿå¤©ç„¶èœ˜è››æ•ä¸ç»“æ„ç‰¹å¾çš„æ–°ææ–™ã€‚è¿™æ¬¾å…¨ä¸è›‹ç™½åŸºçš„äººé€ ä¸ï¼Œç›´å¾„æ¯”äººç±»çš„å¤´å‘ä¸è¿˜è¦ç»†å¾ˆå¤šï¼Œè´¨é‡æ›´è½»ï¼ŒåŒæ—¶å…·ä¼˜å¼‚çš„æ°´åˆ†æ”¶é›†æ€§èƒ½ï¼Œæœ‰æœ›åº”ç”¨äºæˆ·å¤–æ”¶é›†æ°´ä»½ï¼Œç”šè‡³ç”Ÿç‰©åŒ»å­¦ææ–™ã€‚"},
+        {"type":"p","content":"è¯¥é¡¹ç ”ç©¶ç”±é¦™æ¸¯åŸå¤§ç”Ÿç‰©åŒ»å­¦å·¥ç¨‹å­¦ç³»æ•™æˆå…¼å¯ç©¿æˆ´åŒ»ç–—ä¿å¥ææ–™å®éªŒå®¤ä¸»ä»»<b class='font-weight-bold'>èƒ¡é‡‘è²æ•™æˆ</b>é¢†å¯¼ã€‚ç ”ç©¶ç»“æœå·²ç»åœ¨å­¦æœ¯æœŸåˆŠã€Šå…ˆè¿›åŠŸèƒ½ææ–™ã€‹ï¼ˆ<b class='font-weight-bold'>Advanced Functional\n" +
+                "                        Materials</b>ï¼‰ä¸Šå‘è¡¨ï¼Œé¢˜ä¸ºã€ˆA Spiderâ€Captureâ€Silkâ€Like Fiber with Extremely Highâ€Volume Directional Water\n" +
+                "                        Collectionã€‰ã€‚"},
+        {"type":"subtitle","content":"ç”¨åŸºå› é‡ç»„æ–¹å¼åˆ¶å¤‡äººé€ è›‹ç™½"},
+        {"type":"p","content":"å¤©ç„¶çš„èœ˜è››æ•ä¸å…·æœ‰ç‹¬ç‰¹çš„ç»“ç‚¹ç»“æ„ï¼ˆnode structureï¼‰ï¼Œä¸ä¸Šä¼šå‘¨æœŸæ€§åœ°å‡ºç°çººé”¤çŠ¶çš„ç»“èŠ‚ï¼ˆperiodic spindle knotsï¼‰ï¼Œ\n" +
+                "                        åŠ ä¸Šæ•ä¸æœ¬èº«å…·æœ‰äº²æ°´ç­‰ç‰©ç†åŒ–å­¦æ€§è´¨ï¼Œå› æ­¤èƒ½æœ‰æ•ˆåœ°å®šå‘æ”¶é›†å¤§æ°”ä¸­çš„æ°´åˆ†ï¼Œä½¿åœ¨èœ˜è››ç½‘ä¸Šå‡ç»“æˆçš„æ°´ç ï¼Œå‘ç½‘çš„ä¸­å¿ƒç‚¹æ±‡èšã€‚\n" +
+                "                        åŒæ—¶ï¼Œå¤©ç„¶èœ˜è››æ•ä¸éŸ§æ€§å¾ˆé«˜ï¼Œè€Œä¸”åœ¨è¢«æ‹‰é•¿åä¸€æ—¦é‡ä¸Šæ¹¿æ°”å°±ä¼šæ”¶ç¼©ï¼Œæ¢å¤åˆ°åˆå§‹çš„é•¿åº¦ï¼Œæ‰€ä»¥å› ç¼ ä½çŒç‰©è€Œå˜äº†å½¢çš„èœ˜è››ç½‘ï¼Œé‡æ°´ä¾¿å¯ä»¥è‡ªè¡Œæ¢å¤åŸçŠ¶ã€‚\n" +
+                "                        â€œè¿™äº›ç‰¹æ€§å¼•èµ·äº†ç§‘å­¦ç•Œçš„å…´è¶£ï¼Œä½†ç”±äºä»èœ˜è››èº«ä¸Šæ”¶é›†æ•ä¸è´¹æ—¶å¤±äº‹ï¼Œæ‰€ä»¥ç§‘å­¦å®¶ç”¨ä¸åŒçš„æ–¹æ³•åˆ¶ä½œå‡ºæœ‰ç›¸ä¼¼ç‰¹æ€§çš„äººé€ ä¸å’Œæ–°å‹ææ–™ï¼Œåº”ç”¨äºç¼åˆä¼¤å£ç”¨çš„ç¼çº¿ç­‰æ–¹é¢ã€‚â€èƒ¡æ•™æˆä»‹ç»è¯´ã€‚"},
         {"type":"img","content":"img/articles/AFM1.png"},
-        {"type":"img_title","content":"Í¼AÊÇÖ©Öë²¶Ë¿µÄ½á¹¹¡¢¹¦ÄÜ¼°±íÃæ»¯Ñ§£»Í¼BËµÃ÷Ö©ÖëÍøÒòÓ¦»·¾³±ä»¯µÄ·´Ó¦¡££¨Í¼Æ¬À´Ô´: DOI number:\n" +
-                "                            10.1002/adfm.202002437£©"},
-        {"type":"p","content":"ºú½ÌÊÚµÄ×¨³¤ÊÇÑĞ¾¿·ÄÖ¯²ÄÁÏ£¬¶ÔÖ©ÖëË¿µÄÉúÎïÄ£·ÂÒàÒÑ¾­×êÑĞ¶àÄê¡£ÏÖÊ±µÄÈËÔìË¿¶à²ÉÓÃÄáÁú×÷Îª»ùµ×²ÄÁÏ£¬±íÃæÔÙÍâ¼Ó²»Í¬ÎïÁÏµÄÍ¿²ã¡£µ«ºú½ÌÊÚÖ¸³ö£¬²ÏË¿ÔÚÎüÊªĞÔÄÜºÍÈÈÎÈ¶¨ĞÔ¶¼±ÈÄáÁúÓÅÊ¤£¬¸ü¿ÉÉúÎï½µ½â£¬Òò´ËËûÃÇÍÅ¶ÓÑ¡ÓÃÁË²ÏË¿×÷ÎªÔ­²ÄÁÏ£¬ÖÆ×÷ÈËÔìË¿¡£\n" +
+        {"type":"img_title","content":"å›¾Aæ˜¯èœ˜è››æ•ä¸çš„ç»“æ„ã€åŠŸèƒ½åŠè¡¨é¢åŒ–å­¦ï¼›å›¾Bè¯´æ˜èœ˜è››ç½‘å› åº”ç¯å¢ƒå˜åŒ–çš„ååº”ã€‚ï¼ˆå›¾ç‰‡æ¥æº: DOI number:\n" +
+                "                            10.1002/adfm.202002437ï¼‰"},
+        {"type":"p","content":"èƒ¡æ•™æˆçš„ä¸“é•¿æ˜¯ç ”ç©¶çººç»‡ææ–™ï¼Œå¯¹èœ˜è››ä¸çš„ç”Ÿç‰©æ¨¡ä»¿äº¦å·²ç»é’»ç ”å¤šå¹´ã€‚ç°æ—¶çš„äººé€ ä¸å¤šé‡‡ç”¨å°¼é¾™ä½œä¸ºåŸºåº•ææ–™ï¼Œè¡¨é¢å†å¤–åŠ ä¸åŒç‰©æ–™çš„æ¶‚å±‚ã€‚ä½†èƒ¡æ•™æˆæŒ‡å‡ºï¼Œèš•ä¸åœ¨å¸æ¹¿æ€§èƒ½å’Œçƒ­ç¨³å®šæ€§éƒ½æ¯”å°¼é¾™ä¼˜èƒœï¼Œæ›´å¯ç”Ÿç‰©é™è§£ï¼Œå› æ­¤ä»–ä»¬å›¢é˜Ÿé€‰ç”¨äº†èš•ä¸ä½œä¸ºåŸææ–™ï¼Œåˆ¶ä½œäººé€ ä¸ã€‚\n" +
                 "                    "},
-        {"type":"p","content":"ÍÅ¶ÓÏÈÍ¨¹ı»ùÒòÖØ×éµÄ·½Ê½£¬ÖÆ±¸³öÒ»ÖÖÃûÎªeMaSp2µÄÖØ×éÖ©ÖëË¿µ°°×¡£ÌìÈ»Ö©ÖëË¿µÄ½á½ÚÖ÷ÒªÊÇÓÉÇ×Ë®¡¢Õ³ĞÔµÄÌÇµ°°××é³É£¬¾ßÓĞÈıÖÖ·á¸»µÄ°±»ùËá£¨·Ö±ğÊÇË¿°±Ëá£¨serine£©¡¢¸Ê°±Ëá£¨glycine£©ºÍçÓ°±Ëá£¨valine£©£©£»¶øeMaSp2ÕıÕıÍ¬Ñù´óÁ¿º¬ÓĞÉÏÊöÕâÈıÖÖ°±»ùËá£¬¸úÇ×Ë®µÄÌìÈ»Ö©ÖëË¿ÌÇµ°°×ÏàËÆ£¬Òò¶øÄÜ¹»ÌáÉı²ÄÁÏµÄÇ×Ë®ĞÔ¡£\n" +
+        {"type":"p","content":"å›¢é˜Ÿå…ˆé€šè¿‡åŸºå› é‡ç»„çš„æ–¹å¼ï¼Œåˆ¶å¤‡å‡ºä¸€ç§åä¸ºeMaSp2çš„é‡ç»„èœ˜è››ä¸è›‹ç™½ã€‚å¤©ç„¶èœ˜è››ä¸çš„ç»“èŠ‚ä¸»è¦æ˜¯ç”±äº²æ°´ã€ç²˜æ€§çš„ç³–è›‹ç™½ç»„æˆï¼Œå…·æœ‰ä¸‰ç§ä¸°å¯Œçš„æ°¨åŸºé…¸ï¼ˆåˆ†åˆ«æ˜¯ä¸æ°¨é…¸ï¼ˆserineï¼‰ã€ç”˜æ°¨é…¸ï¼ˆglycineï¼‰å’Œç¼¬æ°¨é…¸ï¼ˆvalineï¼‰ï¼‰ï¼›è€ŒeMaSp2æ­£æ­£åŒæ ·å¤§é‡å«æœ‰ä¸Šè¿°è¿™ä¸‰ç§æ°¨åŸºé…¸ï¼Œè·Ÿäº²æ°´çš„å¤©ç„¶èœ˜è››ä¸ç³–è›‹ç™½ç›¸ä¼¼ï¼Œå› è€Œèƒ½å¤Ÿæå‡ææ–™çš„äº²æ°´æ€§ã€‚\n" +
                 "                    "},
         {"type":"img","content":"img/articles/AFM2.webp"},
-        {"type":"img_title","content":"ÍÅ¶ÓÑĞ·¢µÄĞÂ²ÄÁÏÒÔ²ÏË¿Îª»ùµ×²ÄÁÏ¡£Í¼ÖĞ°×É«µÄÊÇ²Ï¼ë£¬ÅÔ±ßµÄÊÇÍÅ¶ÓÑĞ·¢µÄÖØ×éÖ©ÖëË¿µ°°×eMaSp2ÈÜÒº¡£"},
-        {"type":"p","content":"ÍÅ¶ÓÈ»ºó²ÉÓÃ½ş×Õ·¨£¬½«ÒÑÍÑ½ºµÄ²ÏË¿½şÅİÔÚº¬ÓĞeMaSp2µÄÈÜÒºÔÙÈ¡³ö¡£\n" +
-                "                        ÓÉÓÚÊÜ¡°ÈğÀû²»ÎÈ¶¨ĞÔ¡±£¨Rayleigh instability£©µÄÓ°Ïì£¨¼´ÒºÌåÇãÏò½«±íÃæÃæ»ıËõÖÁ×îĞ¡£¬×îºóÒò±íÃæÕÅÁ¦¶ø¶Ï¿ª³ÉÎªÒ»µÎµÎ£©£¬\n" +
-                "                        Õ´ÔÚ²ÏË¿±íÃæµÄeMaSp2»á¶Ï¿ª³É·Ä´¸×´£¬ĞÎ³ÉÒ»¸ö¸ö¸ô¿ªÒ»¶¨¾àÀëµÄ¡°½á¡±£¬¾ÍÈçÌìÈ»Ö©ÖëË¿ÉÏµÄÖÜÆÚĞÔ½á½Ú¡£\n" +
-                "                        ¶øÇÒÏÔÎ¢¾µÓ°ÏñÏÔÊ¾£¬ÕâĞ©¡°½á¡±µÄ±íÃæÒ²ÈçÌìÈ»Ö©ÖëË¿ÉÏµÄ½á½Ú±íÃæÒ»Ñù£¬²¢²»Æ½»¬¡£ºú½ÌÊÚ½âÊÍËµ£º¡°±íÃæµÄ²»Æ½»¬Ôö¼ÓÁËË®ºÍ²ÏË¿½Ó´¥µÄÃæ»ı£¬Òò´ËÌáÉıÁË¼¯Ë®ÄÜÁ¦¡£\n" +
-                "                        ¡±ËıÓÖËµ©U¡°ÎÒÃÇÊ¹ÖÆ³ÉµÄÈ«Ë¿µ°°×»ùÈËÔìË¿²»ÂÛ´ÓÎïÀí½á¹¹µ½»¯Ñ§ĞÔÖÊ£¬¾ù´ïÖÂÈ«·½Î»µÄ·ÂÉúĞ§¹û¡£¡±"},
+        {"type":"img_title","content":"å›¢é˜Ÿç ”å‘çš„æ–°ææ–™ä»¥èš•ä¸ä¸ºåŸºåº•ææ–™ã€‚å›¾ä¸­ç™½è‰²çš„æ˜¯èš•èŒ§ï¼Œæ—è¾¹çš„æ˜¯å›¢é˜Ÿç ”å‘çš„é‡ç»„èœ˜è››ä¸è›‹ç™½eMaSp2æº¶æ¶²ã€‚"},
+        {"type":"p","content":"å›¢é˜Ÿç„¶åé‡‡ç”¨æµ¸æ¸æ³•ï¼Œå°†å·²è„±èƒ¶çš„èš•ä¸æµ¸æ³¡åœ¨å«æœ‰eMaSp2çš„æº¶æ¶²å†å–å‡ºã€‚\n" +
+                "                        ç”±äºå—â€œç‘åˆ©ä¸ç¨³å®šæ€§â€ï¼ˆRayleigh instabilityï¼‰çš„å½±å“ï¼ˆå³æ¶²ä½“å€¾å‘å°†è¡¨é¢é¢ç§¯ç¼©è‡³æœ€å°ï¼Œæœ€åå› è¡¨é¢å¼ åŠ›è€Œæ–­å¼€æˆä¸ºä¸€æ»´æ»´ï¼‰ï¼Œ\n" +
+                "                        æ²¾åœ¨èš•ä¸è¡¨é¢çš„eMaSp2ä¼šæ–­å¼€æˆçººé”¤çŠ¶ï¼Œå½¢æˆä¸€ä¸ªä¸ªéš”å¼€ä¸€å®šè·ç¦»çš„â€œç»“â€ï¼Œå°±å¦‚å¤©ç„¶èœ˜è››ä¸ä¸Šçš„å‘¨æœŸæ€§ç»“èŠ‚ã€‚\n" +
+                "                        è€Œä¸”æ˜¾å¾®é•œå½±åƒæ˜¾ç¤ºï¼Œè¿™äº›â€œç»“â€çš„è¡¨é¢ä¹Ÿå¦‚å¤©ç„¶èœ˜è››ä¸ä¸Šçš„ç»“èŠ‚è¡¨é¢ä¸€æ ·ï¼Œå¹¶ä¸å¹³æ»‘ã€‚èƒ¡æ•™æˆè§£é‡Šè¯´ï¼šâ€œè¡¨é¢çš„ä¸å¹³æ»‘å¢åŠ äº†æ°´å’Œèš•ä¸æ¥è§¦çš„é¢ç§¯ï¼Œå› æ­¤æå‡äº†é›†æ°´èƒ½åŠ›ã€‚\n" +
+                "                        â€å¥¹åˆè¯´ï¸°â€œæˆ‘ä»¬ä½¿åˆ¶æˆçš„å…¨ä¸è›‹ç™½åŸºäººé€ ä¸ä¸è®ºä»ç‰©ç†ç»“æ„åˆ°åŒ–å­¦æ€§è´¨ï¼Œå‡è¾¾è‡´å…¨æ–¹ä½çš„ä»¿ç”Ÿæ•ˆæœã€‚â€"},
         {"type":"img","content":"img/articles/AFM3-768x426.png"},
-        {"type":"img_title","content":"Í¼AÎªÖÆ±¸ÕâÖÖÈ«Ë¿µ°°×»ùÈËÔìË¿µÄ·½·¨£¬½«²ÏË¿½ş×ÕÔÚº¬ÓĞeMaSp2µÄÈÜÒºÖĞ£¬Áî²ÏË¿±íÃæĞÎ³É¸ô¿ªÒ»¶¨¾àÀëµÄ¡°½á¡±¡£Í¼BµÄÏÔÎ¢¾µÓ°ÏñÏÔÊ¾ÕâĞ©¡°½á¡±µÄ±íÃæ²¢²»Æ½»¬¡£<br>£¨Í¼Æ¬À´Ô´:\n" +
-                "                            DOI number: 10.1002/adfm.202002437£©"},
-        {"type":"subtitle","content":"ÊµÑé½á¹ûÖ¤Ã÷²ÄÁÏ¼¯Ë®ÄÜÁ¦ÓÅÔ½"},
-        {"type":"p","content":"ÑĞ¾¿ÍÅ¶Ó¾ÍÕâÖÖÈËÔìË¿µÄ¼¯Ë®ÄÜÁ¦½øĞĞÊµÑé¡£½á¹û±íÃ÷£¬²ÏË¿½ş¹ıeMaSp2ºó£¬¼¯Ë®Ğ§ÂÊ´ó´óÌá¸ß£ºË®·Ö»á¾Û¼¯ÔÚ¡°½á¡±µÄ¸½½üĞÎ³ÉË®µÎ£¬ÏàÁÚµÄË®µÎ»á¾Û½á³É¸ü´óµÄË®µÎÈ»ºóĞü¹ÒÔÚÏËÎ¬ÉÏ£¬Ö±µ½ÖØÁ¦³¬¹ıË®ºÍÏËÎ¬Ö®¼äµÄ±íÃæÕÅÁ¦£¬²Å»áµÎÏÂ¡£"},
+        {"type":"img_title","content":"å›¾Aä¸ºåˆ¶å¤‡è¿™ç§å…¨ä¸è›‹ç™½åŸºäººé€ ä¸çš„æ–¹æ³•ï¼Œå°†èš•ä¸æµ¸æ¸åœ¨å«æœ‰eMaSp2çš„æº¶æ¶²ä¸­ï¼Œä»¤èš•ä¸è¡¨é¢å½¢æˆéš”å¼€ä¸€å®šè·ç¦»çš„â€œç»“â€ã€‚å›¾Bçš„æ˜¾å¾®é•œå½±åƒæ˜¾ç¤ºè¿™äº›â€œç»“â€çš„è¡¨é¢å¹¶ä¸å¹³æ»‘ã€‚<br>ï¼ˆå›¾ç‰‡æ¥æº:\n" +
+                "                            DOI number: 10.1002/adfm.202002437ï¼‰"},
+        {"type":"subtitle","content":"å®éªŒç»“æœè¯æ˜ææ–™é›†æ°´èƒ½åŠ›ä¼˜è¶Š"},
+        {"type":"p","content":"ç ”ç©¶å›¢é˜Ÿå°±è¿™ç§äººé€ ä¸çš„é›†æ°´èƒ½åŠ›è¿›è¡Œå®éªŒã€‚ç»“æœè¡¨æ˜ï¼Œèš•ä¸æµ¸è¿‡eMaSp2åï¼Œé›†æ°´æ•ˆç‡å¤§å¤§æé«˜ï¼šæ°´åˆ†ä¼šèšé›†åœ¨â€œç»“â€çš„é™„è¿‘å½¢æˆæ°´æ»´ï¼Œç›¸é‚»çš„æ°´æ»´ä¼šèšç»“æˆæ›´å¤§çš„æ°´æ»´ç„¶åæ‚¬æŒ‚åœ¨çº¤ç»´ä¸Šï¼Œç›´åˆ°é‡åŠ›è¶…è¿‡æ°´å’Œçº¤ç»´ä¹‹é—´çš„è¡¨é¢å¼ åŠ›ï¼Œæ‰ä¼šæ»´ä¸‹ã€‚"},
         {"type":"img","content":"img/articles/AFM4.png"},
-        {"type":"img_title","content":"ÑĞ¾¿ÈËÔ±·¢ÏÖ£¬Ë®µÎÔÚÃ»ÓĞ½ş¹ıeMaSp2ËùÒÔ±íÃæÃ»ÓĞ¡°½á¡±µÄ²ÏË¿ÉÏ£¬´óÔ¼Ö»ÄÜĞü¹Ò250Ãë£¬¶øÓÚ½ş¹ıeMaSp2µÄ²ÏË¿ÉÏ£¬Ë®µÎ¿ÉÒÔĞü¹Ò690Ãë²ÅµÎÏÂ¡£<br>£¨Í¼Æ¬À´Ô´:\n" +
-                "                            DOI number: 10.1002/adfm.202002437£©"},
-        {"type":"p","content":"ÑĞ¾¿ÈËÔ±¸ü·¢ÏÖ£¬Ë®µÎÔÚÃ»ÓĞ½ş¹ıeMaSp2ËùÒÔ±íÃæÃ»ÓĞ¡°½á¡±µÄ²ÏË¿ÉÏ£¬´óÔ¼Ö»ÄÜĞü¹Ò250Ãë£¬¶øÓÚ½ş¹ıeMaSp2µÄ²ÏË¿ÉÏ£¬Ë®µÎ¿ÉÒÔĞü¹Ò690Ãë²ÅµÎÏÂ¡£ºú½ÌÊÚËµ£º¡°ºóÕßÄÜÊÕ¼¯µ½µÄË®·ÖÌå»ı£¬¼¸ºõÊÇÇ°ÕßµÄ3±¶£¬ÁîÎÒÃÇ¸Ğµ½ÒâÍâ¡£¡±"},
-        {"type":"p","content":"ºú½ÌÊÚÖ¸³ö£¬ËäÈ»ÕâÖÖÈËÔìË¿×î¶à¿ÉÊÕ¼¯µÄË®Ìå»ı£¬Ö»¼°ÏÖÊ±ÄáÁúÈËÔìË¿Ïà¹Ø×î¸ß¼ÍÂ¼µÄÈı·ÖÖ®Ò»£¬µ«±ÈËüÇáÁËÔ¼252±¶£¬¶øÇÒ¼¯Ë®Ğ§ÂÊ£¨¼´¼¯Ë®Ìå»ıÓëÏËÎ¬ÖÊÁ¿µÄ±ÈÂÊ£©¸üÌá¸ßÁË½ü100±¶¡£ËıËµ©U¡°ÈôÒÔÍ¬µÈµÄË®Ìå»ı±È½Ï£¬ÎÒÃÇµÄ²ÄÁÏ±ÈÄáÁúÈËÔìË¿¸üÓ×£¬ËùÒÔ¼¯Ë®Ğ§ÂÊÏà±ÈÖ®ÏÂ¸ü¸ß¡£¡±\n" +
+        {"type":"img_title","content":"ç ”ç©¶äººå‘˜å‘ç°ï¼Œæ°´æ»´åœ¨æ²¡æœ‰æµ¸è¿‡eMaSp2æ‰€ä»¥è¡¨é¢æ²¡æœ‰â€œç»“â€çš„èš•ä¸ä¸Šï¼Œå¤§çº¦åªèƒ½æ‚¬æŒ‚250ç§’ï¼Œè€Œäºæµ¸è¿‡eMaSp2çš„èš•ä¸ä¸Šï¼Œæ°´æ»´å¯ä»¥æ‚¬æŒ‚690ç§’æ‰æ»´ä¸‹ã€‚<br>ï¼ˆå›¾ç‰‡æ¥æº:\n" +
+                "                            DOI number: 10.1002/adfm.202002437ï¼‰"},
+        {"type":"p","content":"ç ”ç©¶äººå‘˜æ›´å‘ç°ï¼Œæ°´æ»´åœ¨æ²¡æœ‰æµ¸è¿‡eMaSp2æ‰€ä»¥è¡¨é¢æ²¡æœ‰â€œç»“â€çš„èš•ä¸ä¸Šï¼Œå¤§çº¦åªèƒ½æ‚¬æŒ‚250ç§’ï¼Œè€Œäºæµ¸è¿‡eMaSp2çš„èš•ä¸ä¸Šï¼Œæ°´æ»´å¯ä»¥æ‚¬æŒ‚690ç§’æ‰æ»´ä¸‹ã€‚èƒ¡æ•™æˆè¯´ï¼šâ€œåè€…èƒ½æ”¶é›†åˆ°çš„æ°´åˆ†ä½“ç§¯ï¼Œå‡ ä¹æ˜¯å‰è€…çš„3å€ï¼Œä»¤æˆ‘ä»¬æ„Ÿåˆ°æ„å¤–ã€‚â€"},
+        {"type":"p","content":"èƒ¡æ•™æˆæŒ‡å‡ºï¼Œè™½ç„¶è¿™ç§äººé€ ä¸æœ€å¤šå¯æ”¶é›†çš„æ°´ä½“ç§¯ï¼ŒåªåŠç°æ—¶å°¼é¾™äººé€ ä¸ç›¸å…³æœ€é«˜çºªå½•çš„ä¸‰åˆ†ä¹‹ä¸€ï¼Œä½†æ¯”å®ƒè½»äº†çº¦252å€ï¼Œè€Œä¸”é›†æ°´æ•ˆç‡ï¼ˆå³é›†æ°´ä½“ç§¯ä¸çº¤ç»´è´¨é‡çš„æ¯”ç‡ï¼‰æ›´æé«˜äº†è¿‘100å€ã€‚å¥¹è¯´ï¸°â€œè‹¥ä»¥åŒç­‰çš„æ°´ä½“ç§¯æ¯”è¾ƒï¼Œæˆ‘ä»¬çš„ææ–™æ¯”å°¼é¾™äººé€ ä¸æ›´å¹¼ï¼Œæ‰€ä»¥é›†æ°´æ•ˆç‡ç›¸æ¯”ä¹‹ä¸‹æ›´é«˜ã€‚â€\n" +
                 "                    "},
-        {"type":"p","content":"ËıºÍÍÅ¶ÓÏÂÒ»²½»áÉîÈëÑĞ¾¿²ÄÁÏµÄÊµ¼ÊÓ¦ÓÃ¡£ËıÏàĞÅ£¬ÓÉÓÚÕâÖÖ²ÄÁÏºÜÇá£¬±ãÓÚĞ¯´øºÍ´¦Àí£¬¿ÉÓÃÓÚ»§ÍâÀıÈçÉ³Ä®ÊÕ¼¯Ë®·Ö£¬¶øÇÒ²ÄÁÏ¿ÉÉúÎï½µ½â£¬²¢ÇÒÒÑÈ¥³ı¶ÔÈËÌåÓĞº¦µÄ½ºÖÊ£¬ÓÃÓÚÈËÌåÄÚÓ¦²»»áÅÅ³â£¬»ò¿É×÷ÉúÎïÒ½Ñ§ÓÃÍ¾¡£\n" +
+        {"type":"p","content":"å¥¹å’Œå›¢é˜Ÿä¸‹ä¸€æ­¥ä¼šæ·±å…¥ç ”ç©¶ææ–™çš„å®é™…åº”ç”¨ã€‚å¥¹ç›¸ä¿¡ï¼Œç”±äºè¿™ç§ææ–™å¾ˆè½»ï¼Œä¾¿äºæºå¸¦å’Œå¤„ç†ï¼Œå¯ç”¨äºæˆ·å¤–ä¾‹å¦‚æ²™æ¼ æ”¶é›†æ°´åˆ†ï¼Œè€Œä¸”ææ–™å¯ç”Ÿç‰©é™è§£ï¼Œå¹¶ä¸”å·²å»é™¤å¯¹äººä½“æœ‰å®³çš„èƒ¶è´¨ï¼Œç”¨äºäººä½“å†…åº”ä¸ä¼šæ’æ–¥ï¼Œæˆ–å¯ä½œç”Ÿç‰©åŒ»å­¦ç”¨é€”ã€‚\n" +
                 "                    "},
-        {"type":"p","content":"ËıÓÖ²¹³ä£¬¾¡¹Ü»ùÒòÖØ×éµ°°×±È½Ï°º¹ó£¬µ«ÊÇÖÆ±¸ÕâÖÖÈËÔìË¿Ê±ËùĞèµÄ»ùÒòÖØ×éµ°°×ÓÃÁ¿ÉÙ£¬Ö»Òª½áºÏ³ÉÊìµÄ½ş×Õ¹¤ÒÕÒÔ¼°ÒÑÉÌÒµ»¯Éú²úµÄ²ÏË¿£¬ËıÏàĞÅÕâÖÖÈËÔìË¿¾ßÓĞ¹æÄ£»¯Éú²úµÄÇ±Á¦¡£\n" +
+        {"type":"p","content":"å¥¹åˆè¡¥å……ï¼Œå°½ç®¡åŸºå› é‡ç»„è›‹ç™½æ¯”è¾ƒæ˜‚è´µï¼Œä½†æ˜¯åˆ¶å¤‡è¿™ç§äººé€ ä¸æ—¶æ‰€éœ€çš„åŸºå› é‡ç»„è›‹ç™½ç”¨é‡å°‘ï¼Œåªè¦ç»“åˆæˆç†Ÿçš„æµ¸æ¸å·¥è‰ºä»¥åŠå·²å•†ä¸šåŒ–ç”Ÿäº§çš„èš•ä¸ï¼Œå¥¹ç›¸ä¿¡è¿™ç§äººé€ ä¸å…·æœ‰è§„æ¨¡åŒ–ç”Ÿäº§çš„æ½œåŠ›ã€‚\n" +
                 "                    "},
-        {"type":"p","content":"ºú½ÌÊÚÊÇÂÛÎÄµÄÍ¨Ñ¶×÷Õß¡£ÂÛÎÄµÄ¹²Í¬µÚÒ»×÷ÕßÊÇÍ¬ÑùÀ´×ÔÏã¸Û³Ç´óÉúÎïÒ½Ñ§¹¤³ÌÑ§ÏµµÄHarun\n" +
-                "                        Venkatesan²©Ê¿ºÍÖĞÉ½´óÑ§ÉúÎïÒ½Ñ§¹¤³ÌÑ§ÔºµÄ³Â½¨Ãú²©Ê¿£¬¶şÈË¶¼ÊÇºú½ÌÊÚµÄ²©Ê¿Éú¡£ÑĞ¾¿ÍÅ¶ÓµÄÆäËû³ÉÔ±À´×ÔÉîÛÚÍåÊµÑéÊÒÒÔ¼°ÉîÛÚ±±¾©´óÑ§Ïã¸Û¿Æ¼¼´óÑ§Ò½Ñ§ÖĞĞÄ¡£"},
+        {"type":"p","content":"èƒ¡æ•™æˆæ˜¯è®ºæ–‡çš„é€šè®¯ä½œè€…ã€‚è®ºæ–‡çš„å…±åŒç¬¬ä¸€ä½œè€…æ˜¯åŒæ ·æ¥è‡ªé¦™æ¸¯åŸå¤§ç”Ÿç‰©åŒ»å­¦å·¥ç¨‹å­¦ç³»çš„Harun\n" +
+                "                        Venkatesanåšå£«å’Œä¸­å±±å¤§å­¦ç”Ÿç‰©åŒ»å­¦å·¥ç¨‹å­¦é™¢çš„é™ˆå»ºé“­åšå£«ï¼ŒäºŒäººéƒ½æ˜¯èƒ¡æ•™æˆçš„åšå£«ç”Ÿã€‚ç ”ç©¶å›¢é˜Ÿçš„å…¶ä»–æˆå‘˜æ¥è‡ªæ·±åœ³æ¹¾å®éªŒå®¤ä»¥åŠæ·±åœ³åŒ—äº¬å¤§å­¦é¦™æ¸¯ç§‘æŠ€å¤§å­¦åŒ»å­¦ä¸­å¿ƒã€‚"},
         {"type":"img","content":"img/articles/AFM5-768x511.png"},
-        {"type":"img_title","content":"Ïã¸Û³Ç´óÉúÎïÒ½Ñ§¹¤³ÌÑ§Ïµºú½ğÁ«½ÌÊÚ£¨ÓÒ£©ÓëËıµÄÑ§ÉúHarun Venkatesan²©Ê¿£¨×ó£©¡£"},
+        {"type":"img_title","content":"é¦™æ¸¯åŸå¤§ç”Ÿç‰©åŒ»å­¦å·¥ç¨‹å­¦ç³»èƒ¡é‡‘è²æ•™æˆï¼ˆå³ï¼‰ä¸å¥¹çš„å­¦ç”ŸHarun Venkatesanåšå£«ï¼ˆå·¦ï¼‰ã€‚"},
     ],
 }
 var am_sensor = {
@@ -63,7 +63,7 @@ var am_sensor = {
         {"type":"p","content":"On this basis, the team further developed a textile flexible piezoresistive sensor with ultra-fast response and recovery capabilities, and used it in the experiment of epidermal pulse monitoring."},
         {"type":"p","content":"The textile flexible piezoresistive sensor developed by the team consists of five layers. The textile on the third layer is woven from yarns in a double helix structure and placed on a layer of electrodes, which are placed on a substrate of polyimide (PI) for short. The researchers then sealed the three layers with gel, and finally covered the surface with a polyethylene naphthalate (PEN) film."},
         {"type":"img","content":"img/articles/news-sensor1.webp"},
-        {"type":"img_title","content":"Figure A is the common weaving technique, Figure B is the double helix yarn used by Prof. Hu's team (the bottom right illustration shows the DNA structure blueprint), and Figure C is the fiber with a core-sheath structure. Scanning electron microscope images of panels D¨CF show the surface morphology of the corresponding fabrics. Figure G shows the design of the textile piezoresistive sensor from Prof. Hu's team. Figure H shows that the textile sensor has good flexibility. Figure 1 shows that the textile sensor can be assembled on the tape.\n" +
+        {"type":"img_title","content":"Figure A is the common weaving technique, Figure B is the double helix yarn used by Prof. Hu's team (the bottom right illustration shows the DNA structure blueprint), and Figure C is the fiber with a core-sheath structure. Scanning electron microscope images of panels Dâ€“F show the surface morphology of the corresponding fabrics. Figure G shows the design of the textile piezoresistive sensor from Prof. Hu's team. Figure H shows that the textile sensor has good flexibility. Figure 1 shows that the textile sensor can be assembled on the tape.\n" +
                 "\n" +
                 "(DOI number: 10.1002/adma.202104313)"},
         {"type":"p","content":"After the textile flexible piezoresistive sensor is energized, the textile fabric on the electrode layer that is deformed by the beating of the epidermal pulse will generate resistance, and different signals will be derived according to the beating of the pulse. The team's experiments confirmed that the textile flexible piezoresistive sensor can detect the epidermal pulse on the neck and wrist, and the wrist pulse signal monitored before and after exercise will be different. In addition, the wrist pulse signals collected from normal women and men diagnosed with sinus bradycardia were also significantly different."},
@@ -82,33 +82,33 @@ var am_sensor = {
         {"type":"img","content":"img/articles/sensor-team.webp"},
         {"type":"img_title","content":"(Front row) Professor Hu Jinlian (right), Professor of Biomedical Engineering at CityU, and her PhD student Zhang Shuai. (Back row) Dr. Harun Venkatesan, Ph.D. graduate that Prof. Hu once supervised, and Meng Shuo, another Ph.D. student of Prof. Hu."},
         {"type":"divider","content":"Related Links"},
-        {"type":"link","content":"Õ¸ĞÂË«ÂİĞı½á¹¹É´ÏßÑ¹×è´«¸ĞÆ÷¿É²âÂö²«£¬ÅÎÎ´À´Ó¦ÓÃÓÚÒ½ÁÆ±£½¡ÊĞ³¡", "src":"https://mp.weixin.qq.com/s/HYKRoizmhm5MBHlREu-xkw"},
-        {"type":"link","content":"Ïã¸Û³ÇÊĞ´óÑ§ºú½ğÁ«½ÌÊÚ¿ÎÌâ×é¡¶Adv. Mater.¡·: µÍÖÍºó¡¢³¬¿ìÏìÓ¦/»Ö¸´µÄÈáĞÔ·ÄÖ¯»ùÑ¹Á¦´«¸ĞÆ÷", "src":"https://mp.weixin.qq.com/s/TY_txYanOZLspP6zP4OVRw"},
+        {"type":"link","content":"å´­æ–°åŒèºæ—‹ç»“æ„çº±çº¿å‹é˜»ä¼ æ„Ÿå™¨å¯æµ‹è„‰æï¼Œç›¼æœªæ¥åº”ç”¨äºåŒ»ç–—ä¿å¥å¸‚åœº", "src":"https://mp.weixin.qq.com/s/HYKRoizmhm5MBHlREu-xkw"},
+        {"type":"link","content":"é¦™æ¸¯åŸå¸‚å¤§å­¦èƒ¡é‡‘è²æ•™æˆè¯¾é¢˜ç»„ã€ŠAdv. Mater.ã€‹: ä½æ»åã€è¶…å¿«å“åº”/æ¢å¤çš„æŸ”æ€§çººç»‡åŸºå‹åŠ›ä¼ æ„Ÿå™¨", "src":"https://mp.weixin.qq.com/s/TY_txYanOZLspP6zP4OVRw"},
     ],
 }
 
 var am_spider = {
-    "title":"Scalable Spider©\Silk©\Like Supertough Fibers using a Pseudoprotein Polymer",
-    "short_title":"Scalable Spider©\Silk©\Like Supertough Fibers using a Pseudoprotein Polymer",
+    "title":"Scalable Spiderâ€Silkâ€Like Supertough Fibers using a Pseudoprotein Polymer",
+    "short_title":"Scalable Spiderâ€Silkâ€Like Supertough Fibers using a Pseudoprotein Polymer",
     "content":[
         {"type":"video","content":"./img/videos/spider.webm"},
         {"type":"p","content":"Spider silks are strong, soft, light, and very stretchable and thus have an extraordinary toughness, namely, a high specific energy to failure, making spider silks the most desirable materials for high-performance applications such as energy absorption, space suits, bullet-proof applications, balloon parachutes, medical devices, and specialty ropes. However, since spiders are cannibalistic and cannot be raised on a large scale, artificial spider silk is becoming a booming hot subject. Although there have been tremendous attempts to prepare fibers from genetically engineered spider-silk proteins, it is still a very large challenge to artificially produce materials with a very high fracture energy, not to mention the high scaling-up requirements because of the extremely low productivity and high cost levels."},
-        {"type":"p","content":"Based on years of research on the structure and properties of spider silk, Professor Hu Jinlian and her team firstly proposed and efficiently prepared artificial spider silk protein with ¦Â -folding, ¦Á -helix and random thread cluster structure. Dry spinning produced ultra-high toughness fibers (387 MJ/m3) comparable to the toughest spider silk in the world. Compared with biological method, this method has the advantages of simplicity, high efficiency, low cost and mass production. At the same time, this method opens up a very promising way to obtain high quality spider fiber."},
+        {"type":"p","content":"Based on years of research on the structure and properties of spider silk, Professor Hu Jinlian and her team firstly proposed and efficiently prepared artificial spider silk protein with Î² -folding, Î± -helix and random thread cluster structure. Dry spinning produced ultra-high toughness fibers (387 MJ/m3) comparable to the toughest spider silk in the world. Compared with biological method, this method has the advantages of simplicity, high efficiency, low cost and mass production. At the same time, this method opens up a very promising way to obtain high quality spider fiber."},
         {"type":"img","content":"img/articles/spider1.jpg"},
         {"type":"img_title","content":"Figure 1. Spider aciniform silk: structure, toughness, and its pseudoprotein polymer design."},
         {"type":"img","content":"img/articles/spider2.jpg"},
         {"type":"img_title","content":"Figure 2. Fabrication and characterization of the pseudoprotein polymer fiber."},
-        {"type":"p","content":"Firstly, the polypeptide chain (PBLG) with ¦Â -folding and ¦Á -helical structure was synthesized by controlling feeding ratio. Then, PBLG and PTMEG were efficiently linked by isocyanate to synthesize artificial spider silk protein material. It was then dissolved in hexafluoroisopropyl alcohol (HFIP) as the spinning solution, and the fibers were prepared by dry spinning, as shown in Figure 2A. FT-IR results showed that there were stable ¦Â -folding and ¦Á -helix in the fibers. SEM shows that the fiber surface has micron fold, which is closely related to the self-assembly of polymer chain and the formation of multilevel structure."},
+        {"type":"p","content":"Firstly, the polypeptide chain (PBLG) with Î² -folding and Î± -helical structure was synthesized by controlling feeding ratio. Then, PBLG and PTMEG were efficiently linked by isocyanate to synthesize artificial spider silk protein material. It was then dissolved in hexafluoroisopropyl alcohol (HFIP) as the spinning solution, and the fibers were prepared by dry spinning, as shown in Figure 2A. FT-IR results showed that there were stable Î² -folding and Î± -helix in the fibers. SEM shows that the fiber surface has micron fold, which is closely related to the self-assembly of polymer chain and the formation of multilevel structure."},
         {"type":"subtitle","content":"Mechanical properties of fiber"},
-        {"type":"p","content":"Tensile test results show that P2, artificial spider silk fiber, has excellent mechanical properties, P2 has a tensile strength of ¡Ö100 MPa, an elongation at break of ¡Ö750% and thus a toughness of 387 MJ m?3, which is more than twice the toughness of spider dragline silk (¡Ö160 MJ m?3) and is comparable to that of the toughest spider silk ¡ª¡ª Argiope trifasciata aciniform silk (¡Ö320 MJ m?3)."},
+        {"type":"p","content":"Tensile test results show that P2, artificial spider silk fiber, has excellent mechanical properties, P2 has a tensile strength of â‰ˆ100 MPa, an elongation at break of â‰ˆ750% and thus a toughness of 387 MJ m?3, which is more than twice the toughness of spider dragline silk (â‰ˆ160 MJ m?3) and is comparable to that of the toughest spider silk â€”â€” Argiope trifasciata aciniform silk (â‰ˆ320 MJ m?3)."},
         {"type":"img","content":"img/articles/spider3.jpg"},
         {"type":"img_title","content":"Figure 3. Mechanical properties of the pseudoprotein polymer fibers."},
         {"type":"p","content":"The fibers reported in this paper are not only as strong as the toughest spider silk, they are much stronger than many other natural fibers (such as elastin) or synthetic fibers (such as polyurethane and synthetic rubber). The chemical structure of this fiber is similar to that of polyurethane, but its strength is much stronger than that of ordinary polyurethane fiber and polyurethane composite fiber (Figure 3D)."},
-        {"type":"p","content":"In order to better study the relationship between fiber structure and properties, the researchers conducted pre-stretching experiments on the fibers. The results showed that the ¦Â -folding content and crystallinity of the fiber increased after prestretching, while the grain size decreased. The tensile strength of the prestretched fiber reached 200MPa, but the toughness of the fiber decreased to 190 MJ/m3 due to the reduction of the elongation at break, which was still higher than the toughness of the spider's ampullatous silk. By comparing the changes in secondary structure and mechanical properties of prestretched fibers, we found that the reduction of grain size contributes to the improvement of tensile strength of fibers, which is consistent with previous reports."},
-        {"type":"p","content":"The results were published in (Advanced materials) under the title \" Scalable Spider©\Silk©\Like Supertough Fibers using a Pseudoprotein Polymer \"."},
+        {"type":"p","content":"In order to better study the relationship between fiber structure and properties, the researchers conducted pre-stretching experiments on the fibers. The results showed that the Î² -folding content and crystallinity of the fiber increased after prestretching, while the grain size decreased. The tensile strength of the prestretched fiber reached 200MPa, but the toughness of the fiber decreased to 190 MJ/m3 due to the reduction of the elongation at break, which was still higher than the toughness of the spider's ampullatous silk. By comparing the changes in secondary structure and mechanical properties of prestretched fibers, we found that the reduction of grain size contributes to the improvement of tensile strength of fibers, which is consistent with previous reports."},
+        {"type":"p","content":"The results were published in (Advanced materials) under the title \" Scalable Spiderâ€Silkâ€Like Supertough Fibers using a Pseudoprotein Polymer \"."},
         {"type":"divider","content":"Related Links"},
         {"type":"link","content":"Paper link","src":"https://doi.org/10.1002/adma.201904311"},
-        {"type":"link","content":"Ïã¸ÛÀí¹¤´óÑ§ºú½ğÁ«½ÌÊÚÍÅ¶Ó¡¶Adv. Mater. ¡·£º¿ÉÁ¿²úµÄ·ÂÖ©ÖëË¿³¬ÈÍÏËÎ¬","src":"https://mp.weixin.qq.com/s/615dkQrez208KCM1GiEHug"},
+        {"type":"link","content":"é¦™æ¸¯ç†å·¥å¤§å­¦èƒ¡é‡‘è²æ•™æˆå›¢é˜Ÿã€ŠAdv. Mater. ã€‹ï¼šå¯é‡äº§çš„ä»¿èœ˜è››ä¸è¶…éŸ§çº¤ç»´","src":"https://mp.weixin.qq.com/s/615dkQrez208KCM1GiEHug"},
     ],
 }
 
@@ -122,7 +122,7 @@ var janus_mask  = {
         {"type":"p","content":"1.with directional water transportation ability for moisturizing"},
         {"type":"p","content":"2.with Chinese medicine nano fibre layer"},
         {"type":"p","content":"3.no preservatives needed, and saving 80% of materials and 95% of transportation cost."},
-        {"type":"p","content":"We already have two Chinese patents pending, which have passed the preliminary Examination.At present, our product prototype has been successfully trial-produced in the factory.Our project won the support from ¡®HK Tech 300 ¡¯program of City University of Hong Kong."},
+        {"type":"p","content":"We already have two Chinese patents pending, which have passed the preliminary Examination.At present, our product prototype has been successfully trial-produced in the factory.Our project won the support from â€˜HK Tech 300 â€™program of City University of Hong Kong."},
         {"type":"img","content":"img/articles/janus/Janus10.webp"},
         {"type":"img","content":"img/articles/janus/Janus1.jpg"},
         {"type":"p","content":"The inventions are ready to be commercialized and the Feasibility Study Report has been completed for the application of the further fund support."},
@@ -131,7 +131,7 @@ var janus_mask  = {
         {"type":"p","content":"1.Containing harmful additives"},
         {"type":"p","content":"In order to preserve the liquid essence, preservatives such as benzyl alcohol, and other harmful additives are needed, that could cause various skin problems."},
         {"type":"p","content":"2.Not eco-friendly"},
-        {"type":"p","content":"Most of the waterproof packaging materials of the facial mask are made of plastic and other chemical materials, which causes serious environmental pollution. The beauty industry produces 120 billion units of packaging per year with a CAGR close to 6% so that by 2050 it¡¯s estimated that there will be 12 billion metric tons of plastic in landfills generated by the cosmetic field alone. Therefore, the cosmetic sector is searching alternatives for current materials, in which effective skin products are based on natural and sustainable ingredients. "},
+        {"type":"p","content":"Most of the waterproof packaging materials of the facial mask are made of plastic and other chemical materials, which causes serious environmental pollution. The beauty industry produces 120 billion units of packaging per year with a CAGR close to 6% so that by 2050 itâ€™s estimated that there will be 12 billion metric tons of plastic in landfills generated by the cosmetic field alone. Therefore, the cosmetic sector is searching alternatives for current materials, in which effective skin products are based on natural and sustainable ingredients. "},
         {"type":"img","content":"img/articles/janus/Janus6.webp"},
         {"type":"p","content":"3.Waste of raw materials "},
         {"type":"p","content":"When the consumers use a mask, they only need the side touching the skin to maintain moisturize and humidify the skin, while traditional masks are hydrophillic on both sides, so they are fully soaked and saturated with essence. The non-woven base cloth tend to absorb lots of cosmetic essence like the sponge and dries out quickly, causing waste of essence materials. "},
@@ -143,7 +143,7 @@ var janus_mask  = {
         {"type":"img_title","content":"Current challenges"},
         {"type":"subtitle","content":"Our solution"},
         {"type":"p","content":"Our solution is to develop Janus water-free mask.Janus, is the name of a mythical god with double faces.Named after the mythical god, our brand name is JanusLean, with the meaning of minimalism, reducing the excess. Just like Janus ,our facial mask also has double layers,  one hydrophobic layer and one hydrophilic layer, with directional water transportation ability."},
-        {"type":"p","content":"Due to the novel technology and advanced materials, the mask might be widely used in the health care and beauty industry to help people maintain healthy skin. The proposed company will industrialize and commercialize the product and the facial mask series products developed in the future. That is, water can only  transport quickly from the hydrophobic layer to the hydrophilic layer£¬and cannot transport backward so easily. This design of double layer with directional water transportation has the unique features of no reverse water adsorption from the skin, dry storage, no preservatives needed£¬and saving up to 80% of raw materials and 95% of transportation cost."},
+        {"type":"p","content":"Due to the novel technology and advanced materials, the mask might be widely used in the health care and beauty industry to help people maintain healthy skin. The proposed company will industrialize and commercialize the product and the facial mask series products developed in the future. That is, water can only  transport quickly from the hydrophobic layer to the hydrophilic layerï¼Œand cannot transport backward so easily. This design of double layer with directional water transportation has the unique features of no reverse water adsorption from the skin, dry storage, no preservatives neededï¼Œand saving up to 80% of raw materials and 95% of transportation cost."},
         {"type":"img","content":"img/articles/janus/Janus7.jpg"},
         {"type":"p","content":"1.Eco-friendly and energy efficient"},
         {"type":"p","content":"Due to the unidirectional moisturizing, this product is water-free and does not need waterproof packaging materials. We can use environmentally friendly and biodegradable packaging materials. So it will be an eco-friendly mask in line with the current concept of sustainable development."},
